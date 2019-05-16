@@ -1,0 +1,64 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.app {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.rectangle {
+	width: 580px;
+	height: 700px;
+	border: black 20px solid;
+}
+
+.top {
+	width: 100%;
+	height: 50%;
+	background: black;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.bottom {
+	width: 100%;
+	height: 50%;
+	background: white;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	overflow: hidden;
+	align-items: flex-end;
+}
+
+.circle {
+	width: 400px;
+	height: 600px;
+	border-radius: 50%;
+}
+
+.circle--top {
+	background: black;
+	border: 40px solid white;
+	margin-top: 40px;
+}
+
+.circle--bottom {
+	background: white;
+	border: 40px solid black;
+	margin-bottom: 40px;
+}
