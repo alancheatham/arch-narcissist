@@ -62,3 +62,10 @@ body {
 	border: 40px solid black;
 	margin-bottom: 40px;
 }
+
+.email {
+	width: 100%;
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+}
